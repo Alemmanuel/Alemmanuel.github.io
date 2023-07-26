@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Matemáticas con Javascript</title>
+    <!-- Add Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body style="text-align: center;" class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold text-center mb-4">Taller de Matemáticas con Javascript</h1>
+        <br>
+        <div class="bg-white rounded-lg shadow-lg p-4 mb-4">
+            <h2 class="text-xl font-bold mb-2">Perímetro y Área del Cuadrado</h2>
+            <p class="text-center mb-4">
+                Inserta aquí un número que será la longitud de los lados del cuadrado:
+                <input style="margin-left: 10px; margin-right: 10px;" type="number" id="numeroCuadrado" class="border rounded p-2">
+                <br>
+                <button onclick="calcularCuadrado()" class="px-4 py-2 bg-blue-500 text-white rounded">Enviar Número</button>
+            </p>
+            <div id="resultadoPerimetro"></div>
+            <div id="resultadoArea"></div>
+        </div>
+        <br>
+        <button class="px-4 py-2 bg-blue-500 text-white rounded"><a href="main.html">Volver al menu principal</a></button>
+    </div>
+    <script src="cuadrado.js"></script>
+</body>
+</html>
